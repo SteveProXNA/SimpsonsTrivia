@@ -1,5 +1,4 @@
-﻿
-namespace WindowsGame.Common.Managers
+﻿namespace WindowsGame.Common.Managers
 {
 	public interface IButtonManager
 	{

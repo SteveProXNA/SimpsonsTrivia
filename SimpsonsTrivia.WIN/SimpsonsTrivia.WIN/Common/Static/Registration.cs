@@ -1,13 +1,13 @@
 ﻿using WindowsGame.Common.Devices;
-using WindowsGame.Common.Implementation;
 using WindowsGame.Common.Inputs;
 using WindowsGame.Common.Inputs.Types;
 using WindowsGame.Common.Interfaces;
-using WindowsGame.Common.Library.Interfaces;
-using WindowsGame.Common.Library.IoC;
-using WindowsGame.Common.Library.Managers;
 using WindowsGame.Common.Managers;
 using WindowsGame.Common.TheGame;
+using WindowsGame.Master.Implementation;
+using WindowsGame.Master.Interfaces;
+using WindowsGame.Master.IoC;
+using WindowsGame.Master.Managers;
 
 namespace WindowsGame.Common.Static
 {
@@ -46,11 +46,11 @@ namespace WindowsGame.Common.Static
 #if (WINDOWS && MOBILE)
 			IoCContainer.Initialize<IDeviceFactory, MobilesDeviceFactory>();
 			IoCContainer.Initialize<IInputFactory, WindowsInputFactory>();
-			IoCContainer.Initialize<ILogger, Logger.Implementation.RealLogger>();
+			IoCContainer.Initialize<ILogger, RealLogger>();
 #elif WINDOWS
 			IoCContainer.Initialize<IDeviceFactory, WindowsDeviceFactory>();
 			IoCContainer.Initialize<IInputFactory, WindowsInputFactory>();
-			IoCContainer.Initialize<ILogger, Logger.Implementation.RealLogger>();
+			IoCContainer.Initialize<ILogger, RealLogger>();
 #endif
 #if !WINDOWS
 			IoCContainer.Initialize<IDeviceFactory, MobilesDeviceFactory>();

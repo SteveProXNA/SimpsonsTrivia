@@ -1,6 +1,6 @@
 ﻿using System;
 using System.IO;
-using WindowsGame.Common.Library.Interfaces;
+using WindowsGame.Master.Interfaces;
 
 namespace WindowsGame.SystemTests.Implementation
 {

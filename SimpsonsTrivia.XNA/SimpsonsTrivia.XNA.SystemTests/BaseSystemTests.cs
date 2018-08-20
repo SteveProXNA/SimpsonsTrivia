@@ -1,8 +1,8 @@
 ﻿using System;
 using NUnit.Framework;
 using WindowsGame.Common;
-using WindowsGame.Common.Library.Interfaces;
-using WindowsGame.Common.Library.IoC;
+using WindowsGame.Master.Interfaces;
+using WindowsGame.Master.IoC;
 using WindowsGame.Common.Managers;
 using WindowsGame.Common.Static;
 using WindowsGame.Common.TheGame;

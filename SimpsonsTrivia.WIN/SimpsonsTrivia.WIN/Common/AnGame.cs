@@ -1,8 +1,8 @@
 ﻿using System;
-using WindowsGame.Common.Library;
+using Microsoft.Xna.Framework;
 using WindowsGame.Common.Static;
 using WindowsGame.Common.TheGame;
-using Microsoft.Xna.Framework;
+using WindowsGame.Master;
 
 namespace WindowsGame.Common
 {

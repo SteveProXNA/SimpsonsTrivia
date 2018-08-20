@@ -2,7 +2,7 @@
 using System.Linq;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using WindowsGame.Common.Library;
+using WindowsGame.Master;
 
 namespace WindowsGame.Common.Managers
 {

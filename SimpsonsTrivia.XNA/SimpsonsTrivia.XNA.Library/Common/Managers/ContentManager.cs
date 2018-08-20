@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Media;
-using WindowsGame.Common.Library;
 using WindowsGame.Common.Static;
+using WindowsGame.Master;
 
 namespace WindowsGame.Common.Managers
 {

@@ -1,5 +1,4 @@
-﻿using System;
-using WindowsGame.Common.Interfaces;
+﻿using WindowsGame.Common.Interfaces;
 
 namespace WindowsGame.Common.Devices
 {

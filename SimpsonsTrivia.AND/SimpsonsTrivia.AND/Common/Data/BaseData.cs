@@ -1,6 +1,6 @@
-﻿using System.Globalization;
+﻿using System;
+using System.Globalization;
 using Microsoft.Xna.Framework;
-using System;
 using WindowsGame.Common.Static;
 
 namespace WindowsGame.Common.Data

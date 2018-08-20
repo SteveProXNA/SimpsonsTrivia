@@ -1,5 +1,5 @@
 ﻿using System;
-using WindowsGame.Common.Library.Interfaces;
+using WindowsGame.Master.Interfaces;
 using WindowsGame.Common.Managers;
 
 namespace WindowsGame.Common.TheGame

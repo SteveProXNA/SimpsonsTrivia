@@ -1,11 +1,10 @@
 ﻿using System;
-using WindowsGame.Common.Data;
-using System.Reflection;
 using System.Collections.Generic;
+using Microsoft.Xna.Framework;
+using WindowsGame.Common.Data;
 using WindowsGame.Common.Objects;
 using WindowsGame.Common.Static;
-using Microsoft.Xna.Framework;
-using WindowsGame.Common.Library;
+using WindowsGame.Master;
 
 namespace WindowsGame.Common.Managers
 {

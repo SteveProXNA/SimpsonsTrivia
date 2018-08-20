@@ -3,7 +3,6 @@ using System.IO;
 using System.IO.IsolatedStorage;
 using System.Xml.Serialization;
 using WindowsGame.Common.Data;
-using WindowsGame.Common.Static;
 
 namespace WindowsGame.Common.Managers
 {
