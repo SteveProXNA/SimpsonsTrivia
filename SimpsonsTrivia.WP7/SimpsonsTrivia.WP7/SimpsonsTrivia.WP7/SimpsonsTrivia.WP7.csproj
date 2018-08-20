@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{B564C4F0-284A-4554-89B6-9E11E018E3C4}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">Windows Phone</Platform>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsGame</RootNamespace>
+    <AssemblyName>SimpsonsTrivia.WP7</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows Phone</XnaPlatform>
+    <XnaProfile>Reach</XnaProfile>
+    <XnaCrossPlatformGroupID>d0854aa5-512d-4000-a577-4eeefea27bcd</XnaCrossPlatformGroupID>
+    <XnaOutputType>Game</XnaOutputType>
+    <XnaRefreshLevel>1</XnaRefreshLevel>
+    <WPTombstoneEnabled>false</WPTombstoneEnabled>
+    <XapFilename>$(AssemblyName).xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <XnaWindowsPhoneManifestTemplate>Properties\WMAppManifest.xml</XnaWindowsPhoneManifestTemplate>
+    <TileImage>Background.png</TileImage>
+    <TileTitle>SimpsonsTrivia.WP7</TileTitle>
+    <SupportedCultures>
+    </SupportedCultures>
+    <ApplicationIcon>Game.ico</ApplicationIcon>
+    <Thumbnail>PhoneGameThumb.png</Thumbnail>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|Windows Phone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Windows Phone\Debug</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WINDOWS_PHONE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <XnaCompressContent>false</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|Windows Phone' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Windows Phone\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS_PHONE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <XnaCompressContent>false</XnaCompressContent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework" />
+    <Reference Include="Microsoft.Xna.Framework.Game" />
+    <Reference Include="Microsoft.Xna.Framework.Graphics" />
+    <Reference Include="Microsoft.Xna.Framework.GamerServices" />
+    <Reference Include="Microsoft.Xna.Framework.Input.Touch" />
+    <Reference Include="mscorlib" />
+    <Reference Include="Ninject">
+      <HintPath>..\..\packages\Portable.Ninject.3.3.1\lib\wp7\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Xml.Serialization, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\AnGame.cs" />
+    <Compile Include="Common\Data\BaseData.cs" />
+    <Compile Include="Common\Data\GlobalConfigData.cs" />
+    <Compile Include="Common\Data\StoragePersistData.cs" />
+    <Compile Include="Common\Devices\MobilesDeviceFactory.cs" />
+    <Compile Include="Common\Devices\WindowsDeviceFactory.cs" />
+    <Compile Include="Common\Implementation\RealFileProxy.cs" />
+    <Compile Include="Common\Inputs\BaseInputFactory.cs" />
+    <Compile Include="Common\Inputs\MobilesInputFactory.cs" />
+    <Compile Include="Common\Inputs\Types\JoystickInput.cs" />
+    <Compile Include="Common\Inputs\Types\KeyboardInput.cs" />
+    <Compile Include="Common\Inputs\Types\MouseScreenInput.cs" />
+    <Compile Include="Common\Inputs\Types\TouchScreenInput.cs" />
+    <Compile Include="Common\Inputs\WindowsInputFactory.cs" />
+    <Compile Include="Common\Interfaces\IDeviceFactory.cs" />
+    <Compile Include="Common\Interfaces\IInputFactory.cs" />
+    <Compile Include="Common\Interfaces\IScreen.cs" />
+    <Compile Include="Common\Library\Engine.cs" />
+    <Compile Include="Common\Library\Implementation\TestLogger.cs" />
+    <Compile Include="Common\Library\Interfaces\IFileManager.cs" />
+    <Compile Include="Common\Library\Interfaces\IFileProxy.cs" />
+    <Compile Include="Common\Library\Interfaces\ILogger.cs" />
+    <Compile Include="Common\Library\IoC\EngineModule.cs" />
+    <Compile Include="Common\Library\IoC\IoCContainer.cs" />
+    <Compile Include="Common\Library\Managers\FileManager.cs" />
+    <Compile Include="Common\Logger\Implementation\RealLogger.cs" />
+    <Compile Include="Common\Managers\BaseManager.cs" />
+    <Compile Include="Common\Managers\ButtonManager.cs" />
+    <Compile Include="Common\Managers\CollisionManager.cs" />
+    <Compile Include="Common\Managers\ConfigManager.cs" />
+    <Compile Include="Common\Managers\ContentManager.cs" />
+    <Compile Include="Common\Managers\DeviceManager.cs" />
+    <Compile Include="Common\Managers\ImageManager.cs" />
+    <Compile Include="Common\Managers\InputManager.cs" />
+    <Compile Include="Common\Managers\QuestionManager.cs" />
+    <Compile Include="Common\Managers\RandomManager.cs" />
+    <Compile Include="Common\Managers\ResolutionManager.cs" />
+    <Compile Include="Common\Managers\ScoreManager.cs" />
+    <Compile Include="Common\Managers\ScreenManager.cs" />
+    <Compile Include="Common\Managers\SoundManager.cs" />
+    <Compile Include="Common\Managers\SpriteManager.cs" />
+    <Compile Include="Common\Managers\StorageManager.cs" />
+    <Compile Include="Common\Managers\TextManager.cs" />
+    <Compile Include="Common\Managers\ThreadManager.cs" />
+    <Compile Include="Common\MyGame.cs" />
+    <Compile Include="Common\Objects\Question.cs" />
+    <Compile Include="Common\Objects\TextData.cs" />
+    <Compile Include="Common\Screens\BaseScreen.cs" />
+    <Compile Include="Common\Screens\DiffScreen.cs" />
+    <Compile Include="Common\Screens\ExitScreen.cs" />
+    <Compile Include="Common\Screens\InitScreen.cs" />
+    <Compile Include="Common\Screens\LongScreen.cs" />
+    <Compile Include="Common\Screens\OverScreen.cs" />
+    <Compile Include="Common\Screens\PlayScreen.cs" />
+    <Compile Include="Common\Screens\QuizScreen.cs" />
+    <Compile Include="Common\Screens\ReadyScreen.cs" />
+    <Compile Include="Common\Screens\ScoreScreen.cs" />
+    <Compile Include="Common\Screens\SplashScreen.cs" />
+    <Compile Include="Common\Screens\TestScreen.cs" />
+    <Compile Include="Common\Screens\TitleScreen.cs" />
+    <Compile Include="Common\Static\Assets.cs" />
+    <Compile Include="Common\Static\Constants.cs" />
+    <Compile Include="Common\Static\Enumerations.cs" />
+    <Compile Include="Common\Static\Globalize.cs" />
+    <Compile Include="Common\Static\Registration.cs" />
+    <Compile Include="Common\TheGame\GameFactory.cs" />
+    <Compile Include="Common\TheGame\GameManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Common\Logger\README.md" />
+    <None Include="packages.config" />
+    <None Include="Properties\AppManifest.xml">
+      <XnaPlatformSpecific>true</XnaPlatformSpecific>
+    </None>
+    <None Include="Properties\WMAppManifest.xml">
+      <XnaPlatformSpecific>true</XnaPlatformSpecific>
+    </None>
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Game.ico" />
+    <Content Include="PhoneGameThumb.png">
+      <XnaPlatformSpecific>true</XnaPlatformSpecific>
+    </Content>
+    <Content Include="Background.png">
+      <XnaPlatformSpecific>true</XnaPlatformSpecific>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SimpsonsTrivia.WP7Content\SimpsonsTrivia.WP7Content.contentproj">
+      <Name>SimpsonsTrivia.WP7Content</Name>
+      <XnaReferenceType>Content</XnaReferenceType>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!--
+      To modify your build process, add your task inside one of the targets below and uncomment it. 
+      Other similar extension points exist, see Microsoft.Common.targets.
+      <Target Name="BeforeBuild">
+      </Target>
+      <Target Name="AfterBuild">
+      </Target>
+    -->
+</Project>

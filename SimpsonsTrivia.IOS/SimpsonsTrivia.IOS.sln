@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpsonsTrivia.IOS", "SimpsonsTrivia.IOS\SimpsonsTrivia.IOS.csproj", "{E5F08848-2BF7-4480-B620-C94147A97327}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5F08848-2BF7-4480-B620-C94147A97327}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{E5F08848-2BF7-4480-B620-C94147A97327}.Debug|iPhone.Build.0 = Debug|iPhone
+		{E5F08848-2BF7-4480-B620-C94147A97327}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{E5F08848-2BF7-4480-B620-C94147A97327}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{E5F08848-2BF7-4480-B620-C94147A97327}.Release|iPhone.ActiveCfg = Release|iPhone
+		{E5F08848-2BF7-4480-B620-C94147A97327}.Release|iPhone.Build.0 = Release|iPhone
+		{E5F08848-2BF7-4480-B620-C94147A97327}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{E5F08848-2BF7-4480-B620-C94147A97327}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

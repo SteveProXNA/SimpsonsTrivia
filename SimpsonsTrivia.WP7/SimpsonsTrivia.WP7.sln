@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpsonsTrivia.WP7", "SimpsonsTrivia.WP7\SimpsonsTrivia.WP7\SimpsonsTrivia.WP7.csproj", "{B564C4F0-284A-4554-89B6-9E11E018E3C4}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "SimpsonsTrivia.WP7Content", "SimpsonsTrivia.WP7\SimpsonsTrivia.WP7Content\SimpsonsTrivia.WP7Content.contentproj", "{6F931EF3-F0D2-4FCB-B765-09A301E96A5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Windows Phone = Debug|Windows Phone
+		Release|Windows Phone = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B564C4F0-284A-4554-89B6-9E11E018E3C4}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{B564C4F0-284A-4554-89B6-9E11E018E3C4}.Debug|Windows Phone.Build.0 = Debug|Windows Phone
+		{B564C4F0-284A-4554-89B6-9E11E018E3C4}.Debug|Windows Phone.Deploy.0 = Debug|Windows Phone
+		{B564C4F0-284A-4554-89B6-9E11E018E3C4}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+		{B564C4F0-284A-4554-89B6-9E11E018E3C4}.Release|Windows Phone.Build.0 = Release|Windows Phone
+		{B564C4F0-284A-4554-89B6-9E11E018E3C4}.Release|Windows Phone.Deploy.0 = Release|Windows Phone
+		{6F931EF3-F0D2-4FCB-B765-09A301E96A5E}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{6F931EF3-F0D2-4FCB-B765-09A301E96A5E}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
