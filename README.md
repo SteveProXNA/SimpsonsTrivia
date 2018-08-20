@@ -48,12 +48,10 @@ Note: game complete screen has the "Flicky" game over music from SMS Power!
 - You Tube https://youtu.be/yXK09QH_4IY
 
 ###### DOCUMENTATION
-TODO Include the following links to Simpsons Trivia ports:
-- Simpsons Trivia XNA port
+- Simpsons Trivia XNA [port](http://steveproxna.blogspot.com/2018/07/simpsons-trivia-xna-port.html)
 - Simpsons Trivia WIN port
 - Simpsons Trivia AND port
 - Simpsons Trivia IOS port
-
 ###### COMPANY BIO
 StevePro Studios is an independent game developer that builds and publishes 80s retro arcade video games!
 <br />
