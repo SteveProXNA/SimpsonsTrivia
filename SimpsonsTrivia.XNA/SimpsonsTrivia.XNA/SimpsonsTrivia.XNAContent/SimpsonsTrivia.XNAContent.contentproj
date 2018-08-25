@@ -146,18 +146,18 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Data\Levels\Argh.txt">
+    <None Include="Data\Levels\Argh.txt">
       <Name>Argh</Name>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Data\Levels\Hard.txt">
+    </None>
+    <None Include="Data\Levels\Hard.txt">
       <Name>Hard</Name>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Data\Levels\Norm.txt">
+    </None>
+    <None Include="Data\Levels\Norm.txt">
       <Name>Norm</Name>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    </None>
     <None Include="Data\Texts\TestScreen.txt">
       <Name>TestScreen</Name>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
