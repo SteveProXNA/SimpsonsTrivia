@@ -1,12 +1,12 @@
 ﻿using System;
 using NUnit.Framework;
 using WindowsGame.Common;
-using WindowsGame.Master.Interfaces;
-using WindowsGame.Master.IoC;
 using WindowsGame.Common.Managers;
 using WindowsGame.Common.Static;
 using WindowsGame.Common.TheGame;
-using WindowsGame.SystemTests.Implementation;
+using WindowsGame.Master.Interfaces;
+using WindowsGame.Master.IoC;
+using WindowsGame.SystemTests.Master.Implementation;
 
 namespace WindowsGame.SystemTests
 {
@@ -28,7 +28,6 @@ namespace WindowsGame.SystemTests
 		protected IFileManager FileManager;
 		protected ILogger Logger;
 
-		// mklink /D C:\SimpsonsTrivia.XNA.Content  C:\GitHub\SteveProXNA\SimpsonsTrivia\SimpsonsTrivia.XNA\SimpsonsTrivia.XNA\SimpsonsTrivia.XNA\bin\x86\Debug
 		// mklink /D C:\SimpsonsTrivia.XNA.Content  C:\SVN\SimpsonsTrivia\SimpsonsTrivia.XNA\SimpsonsTrivia.XNA\SimpsonsTrivia.XNA\bin\x86\Debug\
 		protected const String CONTENT_ROOT = @"C:\SimpsonsTrivia.XNA.Content\";
 

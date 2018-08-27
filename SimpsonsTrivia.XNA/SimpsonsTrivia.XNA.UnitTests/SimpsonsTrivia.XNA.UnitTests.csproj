@@ -50,7 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseUnitTests.cs" />
-    <Compile Include="Managers\QuestionManagerUnitTests.cs" />
+    <Compile Include="Common\Managers\QuestionManagerUnitTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

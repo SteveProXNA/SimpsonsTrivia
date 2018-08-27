@@ -2,7 +2,7 @@
 using System.IO;
 using WindowsGame.Master.Interfaces;
 
-namespace WindowsGame.SystemTests.Implementation
+namespace WindowsGame.SystemTests.Master.Implementation
 {
 	public class TestFileProxy : IFileProxy
 	{

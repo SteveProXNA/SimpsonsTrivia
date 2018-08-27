@@ -3,7 +3,7 @@ using NUnit.Framework;
 using WindowsGame.Common;
 using WindowsGame.Common.Static;
 
-namespace WindowsGame.SystemTests.Managers
+namespace WindowsGame.SystemTests.Common.Managers
 {
 	[TestFixture]
 	public class QuestionManagerSystemTests : BaseSystemTests

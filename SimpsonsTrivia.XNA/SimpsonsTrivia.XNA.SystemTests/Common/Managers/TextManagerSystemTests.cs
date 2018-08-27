@@ -1,11 +1,10 @@
-﻿using NUnit.Framework;
+﻿using System;
+using System.Collections.Generic;
+using NUnit.Framework;
 using WindowsGame.Common;
 using WindowsGame.Common.Objects;
-using System.Collections.Generic;
-using System;
-using WindowsGame.Common.Static;
 
-namespace WindowsGame.SystemTests.Managers
+namespace WindowsGame.SystemTests.Common.Managers
 {
 	[TestFixture]
 	public class TextManagerSystemTests : BaseSystemTests

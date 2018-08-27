@@ -3,7 +3,7 @@ using NUnit.Framework;
 using WindowsGame.Common.Managers;
 using WindowsGame.Common.Objects;
 
-namespace WindowsGame.UnitTests.Managers
+namespace WindowsGame.UnitTests.Common.Managers
 {
 	[TestFixture]
 	public class QuestionManagerUnitTests : BaseUnitTests
@@ -18,7 +18,7 @@ namespace WindowsGame.UnitTests.Managers
 		public void LoadQuestionDataTest()
 		{
 			// Arrange.
-			String line = "3;WHICH OF THE FOLLOWING|CHARACTERS IS A NON-SMOKER?;KRUSTY;NELSON;GRAMPA SIMPSON;MRS. KRABAPPLE;page01;02-GeneralSimpsonsTrivia.csv";
+			const String line = "3;WHICH OF THE FOLLOWING|CHARACTERS IS A NON-SMOKER?;KRUSTY;NELSON;GRAMPA SIMPSON;MRS. KRABAPPLE;page01;02-GeneralSimpsonsTrivia.csv";
 
 			// Act.
 			Question question = QuestionManager.LoadQuestion(line);

@@ -1,8 +1,8 @@
 ﻿using System.Reflection;
-using WindowsGame.Common;
 using NUnit.Framework;
+using WindowsGame.Common;
 
-namespace WindowsGame.SystemTests.TheGame
+namespace WindowsGame.SystemTests.Common.TheGame
 {
 	[TestFixture]
 	public class GameManagerTests : BaseSystemTests

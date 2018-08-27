@@ -47,16 +47,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseSystemTests.cs" />
-    <Compile Include="Implementation\TestFileProxy.cs" />
-    <Compile Include="Library\Managers\FileManagerSystemTests.cs" />
-    <Compile Include="Managers\QuestionManagerSystemTests.cs" />
-    <Compile Include="Managers\RandomManagerSystemTests.cs" />
-    <Compile Include="Managers\TextManagerSystemTests.cs" />
+    <Compile Include="Master\Implementation\TestFileProxy.cs" />
+    <Compile Include="Master\Managers\FileManagerSystemTests.cs" />
+    <Compile Include="Common\Managers\QuestionManagerSystemTests.cs" />
+    <Compile Include="Common\Managers\RandomManagerSystemTests.cs" />
+    <Compile Include="Common\Managers\TextManagerSystemTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TheGame\GameManagerTests.cs" />
+    <Compile Include="Common\TheGame\GameManagerTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Library\README.md" />
+    <None Include="Master\README.md" />
     <None Include="packages.config" />
     <None Include="SystemTests.nunit" />
   </ItemGroup>
