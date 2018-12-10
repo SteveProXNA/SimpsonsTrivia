@@ -82,7 +82,9 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
-    <Content Include="Assets\SplashScreen.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-140.png" />
+    <Content Include="Assets\SplashScreen.scale-240.png" />
     <Content Include="Content\Fonts\Emulogic.xnb" />
     <Content Include="Content\Sound\Cheat.xnb" />
     <Content Include="Content\Sound\Early.xnb" />
