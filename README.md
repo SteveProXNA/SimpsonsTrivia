@@ -49,9 +49,9 @@ Note: game complete screen has the "Flicky" game over music from SMS Power!
 
 ###### DOCUMENTATION
 - Simpsons Trivia XNA [port](http://steveproxna.blogspot.com/2018/07/simpsons-trivia-xna-port.html)
-- Simpsons Trivia WIN port
-- Simpsons Trivia AND port
-- Simpsons Trivia IOS port
+- Simpsons Trivia WIN [port](http://steveproxna.blogspot.com/2018/08/simpsons-trivia-windows-port.html)
+- Simpsons Trivia AND [port](http://steveproxna.blogspot.com/2018/09/simpsons-trivia-android-port.html)
+- Simpsons Trivia IOS [port](http://steveproxna.blogspot.com/2018/11/simpsons-trivia-ios-port.html)
 ###### COMPANY BIO
 StevePro Studios is an independent game developer that builds and publishes 80s retro arcade video games!
 <br />
