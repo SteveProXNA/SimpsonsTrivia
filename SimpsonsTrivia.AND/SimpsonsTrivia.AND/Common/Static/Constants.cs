@@ -4,8 +4,8 @@ namespace WindowsGame.Common.Static
 {
 	public static class Constants
 	{
-		public const String BUILD_VERSION = "V1.0.0";
-		public const String CONTENT_DIRECTORY = "Content";
+        public const String BUILD_VERSION = "V1.1.0";
+        public const String CONTENT_DIRECTORY = "Content";
 
 		public const String DATA_DIRECTORY = "Data";
 		public const String CONFIG_DIRECTORY = "Config";
